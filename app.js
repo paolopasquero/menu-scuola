@@ -1,5 +1,5 @@
 const C=window.MENU_CONFIG; const names=['Domenica','Lunedi','Martedi','Mercoledi','Giovedi','Venerdi','Sabato'];
-const labels=[['primo','🍝','Primo'],['secondo','🍗','Secondo'],['contorno','🥕','Contorno'],['fruttaDessert','🍎','Frutta o dessert'],['pane','🥖','Pane'],['merenda','🧃','Merenda']];
+const labels=[['primo','🍝','Primo'],['secondo','🍗','Secondo'],['contorno','🥕','Contorno'],['fruttaDessert','🍎','Frutta o dessert'],['merenda','🧃','Merenda']];
 let selected=new Date(); selected.setHours(12,0,0,0);
 const iso=d=>{const x=new Date(d);x.setMinutes(x.getMinutes()-x.getTimezoneOffset());return x.toISOString().slice(0,10)};
 function menuWeek(d){const a=new Date(C.dataRiferimentoSettimana1+'T12:00:00');const days=Math.floor((d-a)/86400000);const w=Math.floor(days/7);return ((w%4)+4)%4+1}

@@ -1,0 +1,17 @@
+{
+  "name": "Menu scuola",
+  "short_name": "Menu scuola",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5fbf7",
+  "theme_color": "#1b4332",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

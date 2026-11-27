@@ -1,4 +1,4 @@
-const CACHE = 'menu-scuola-v3';
+const CACHE = 'menu-scuola-v4';
 const APP_SHELL = [
   './',
   'index.html',
